@@ -1,5 +1,5 @@
 :root {
-	--primary-color: #ec7f37;
+	--primary-color: #e77e38;
 	--light-color: #f3f0ed;
 	--secondary-color: #be4f0c;
 	--dark-color: #393939;
@@ -233,13 +233,13 @@ h3 :hover {
 
 #main-nav ul li a:hover {
 	background: var(--light-color);
-	color: #333;
+	color: var(--dark-color);
 }
 
 /*showcase*/
 #showcase {
 	color: white;
-	background: #333;
+	background: var(--dark-color);
 	padding: 2rem;
 	position: relative;
 }
@@ -337,4 +337,9 @@ h3 :hover {
 
 #main-footer .footer-container input[type='submit'] {
 	width: 90%;
+}
+
+#about img {
+	border-radius: 3px;
+	margin-bottom: 1.5rem;
 }
