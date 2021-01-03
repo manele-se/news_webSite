@@ -5,5 +5,3 @@ Done with:
 * HTML5
 * CSS
 
-
-Thank you to Brad Traversy 
